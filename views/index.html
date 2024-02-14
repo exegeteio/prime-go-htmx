@@ -1,0 +1,12 @@
+{{ block "index" . }}
+<html lang="en">
+<head>
+  <title>Counter</title>
+  <script src="https://unpkg.com/htmx.org/dist/htmx.js"></script>
+</head>
+<body>
+<h1>Counter</h1>
+<p>Count: {{ .Count }}</p>
+</body>
+</html>
+{{ end }}
